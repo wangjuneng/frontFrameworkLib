@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,select,button,input,textarea{margin:0;padding:0}
+a{ text-decoration:none}
+input{ outline:none}
+body{color:#404040;font:12px/18px "Microsoft Yahei","Heiti",Segoe UI,Arial,sans-serif,serif;}
+.login{ 
+	<%--
+	background:url(<%=basePath%>/static/images/login/login_bg.png) no-repeat center;   --%>
+	background-size:100% 950px;
+	height:950px;
+	background-color:#5E95D0;
+	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4f85bb+0,5E95D0+100;Blue+3d+%237 */
+	/* background: #4f85bb; */ /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQ5OWJlYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyMDdjZTUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #4f85bb 0%, #5E95D0 100%); /* FF3.6-15 */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4f85bb), color-stop(100%,#5E95D0)); /* Chrome4-9,Safari4-5 */
+	background: -webkit-linear-gradient(top,  #4f85bb 0%,#5E95D0 100%); /* Chrome10-25,Safari5.1-6 */
+	background: -o-linear-gradient(top,  #4f85bb 0%,#5E95D0 100%); /* Opera 11.10-11.50 */
+	background: -ms-linear-gradient(top,  #4f85bb 0%,#5E95D0 100%); /* IE10 preview */
+	background: linear-gradient(to bottom,  #4f85bb 0%,#5E95D0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f85bb', endColorstr='#5E95D0',GradientType=0 ); /* IE6-8 */
+}
+.login .login_con{ text-align:center; position:fixed; top:50%; left:50%; margin-top:-250px; margin-left:-102px;}
+.login .login_con .form{ margin-left:-122px; clear:both; margin-top:12px; }
+.login .login_con .form .form_line{ position:absolute }
+.login .login_con .form .form_con{ width:400px; height:340px; background:#fff; margin-left:25px; margin-top:9px; position:absolute; }
+.login .login_con .form .form_con .tit h1{ font-weight:400; font-size:22px; color:#2a90d6}
+.login .login_con .form .form_con .tit{ height:70px; line-height:70px; background:url(../images/login/head_bg.png)no-repeat center; margin-top:-1px;}
+.login .login_con .form_con form{ margin-top:26px;}
+.login .login_con .form_con form p{ width:330px; height:42px; border:1px solid #ddd; margin-left:36px; border-radius:4px; margin-bottom:24px; text-align:left; }
+.login .login_con .form_con form p img{ margin:12px 14px; float:left}
+.login .login_con .form_con form p input{ height:42px; line-height:42px;font-size:18px ; border:none; width:275px;}
+.login .login_con .form_con form .mima_miss{ border:none; text-align:right; font-size:16px;margin-bottom:-10px ; margin-top:-6px}
+.login .login_con .form_con form .mima_miss a{color:#20a1da}
+.login .login_con .form_con form .denglu{ text-align:center; background:#5E95D0; border:1px solid #2a90d6; color:#fff;font-size:18px; border-radius:4px; margin-left:10px; cursor:pointer; width:330px; height:42px; line-height:42px;}
+.login .login_con .form .form_bot{  margin-left:25px; position:absolute; margin-top:340px;}
